@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f03d846-8f26-4f54-9721-b2c61aa68a46" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/nagi/AnswerController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/nagi/AnswerController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nagi.iml" afterPath="$PROJECT_DIR$/nagi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nagi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +13,7 @@
     <file path="/fragment.java" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396228272112" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/nagi/nagi/AnswerSpec.groovy" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396228273840" ignored="false" />
     <file path="/Answer.groovy" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396228293525" ignored="false" />
-    <file path="/AnswerController.groovy" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396766858650" ignored="false" />
+    <file path="/AnswerController.groovy" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396770124484" ignored="false" />
     <file path="/application.properties" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396229170853" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +99,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="23" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+            <state line="8" column="23" selection-start="95" selection-end="95" vertical-scroll-proportion="-2.4">
               <folding />
             </state>
           </provider>
@@ -119,19 +117,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnswerController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AnswerController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/nagi/AnswerController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="47" selection-start="2940" selection-end="2940" vertical-scroll-proportion="-68.478264">
+            <state line="117" column="57" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.72879">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhraseController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PhraseController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/nagi/PhraseController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="0.14603616">
+            <state line="8" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="35.260868">
               <folding />
             </state>
           </provider>
@@ -625,12 +623,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/nagi/PhraseController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="35.260868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/nagi/Phrase.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+        <state line="8" column="23" selection-start="95" selection-end="95" vertical-scroll-proportion="-2.4">
           <folding />
         </state>
       </provider>
@@ -647,14 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nagi/AnswerController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="47" selection-start="2940" selection-end="2940" vertical-scroll-proportion="-68.478264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/nagi/PhraseController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="0.14603616">
+        <state line="117" column="57" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.72879">
           <folding />
         </state>
       </provider>
