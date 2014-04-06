@@ -13,7 +13,7 @@
     <file path="/fragment.java" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396228272112" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/nagi/nagi/AnswerSpec.groovy" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396228273840" ignored="false" />
     <file path="/Answer.groovy" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396228293525" ignored="false" />
-    <file path="/AnswerController.groovy" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396770652673" ignored="false" />
+    <file path="/AnswerController.groovy" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396771543679" ignored="false" />
     <file path="/application.properties" changelist="3f03d846-8f26-4f54-9721-b2c61aa68a46" time="1396229170853" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +120,7 @@
       <file leaf-file-name="AnswerController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/nagi/AnswerController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="27" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.8331015">
+            <state line="111" column="54" selection-start="3078" selection-end="3078" vertical-scroll-proportion="0.58275384">
               <folding />
             </state>
           </provider>
@@ -652,7 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/nagi/AnswerController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="27" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.8331015">
+        <state line="111" column="54" selection-start="3078" selection-end="3078" vertical-scroll-proportion="0.58275384">
           <folding />
         </state>
       </provider>

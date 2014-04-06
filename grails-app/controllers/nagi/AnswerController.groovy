@@ -105,7 +105,6 @@ class AnswerController {
 
     def answerQuestion(){
         String question
-        def random
         if(params.question){
             question = params.question
         }
@@ -113,14 +112,14 @@ class AnswerController {
             question = request.JSON?.question
         }
         if(question.contains("what would shungo say")) {
-            random = random.nextInt(Phrase.count)
-            def phrase = Phrase.all[random]
+            def randomInt = random.nextInt(Phrase.count)
+            def phrase = Phrase.all[randomInt]
             render phrase.body
         }
         else {
             def answers = Answer.findAllByQuestion(question)
-            random = random.nextInt(answers.size())
-            render answers[random].body
+            def randomInt = random.nextInt(answers.size())
+            render answers[randomInt].body
         }
     }
 }
