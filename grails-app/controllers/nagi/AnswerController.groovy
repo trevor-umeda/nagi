@@ -118,8 +118,17 @@ class AnswerController {
         }
         else {
             def answers = Answer.findAllByQuestion(question)
-            def randomInt = random.nextInt(answers.size())
-            render answers[randomInt].body
+            if(answers){
+                def randomInt = random.nextInt(answers.size())                
+                render answers[randomInt].body    
+            }
+            else{
+                def answer = new Answer(question:question)
+                answer.save(flush:true)
+                render "I'll have to think about that"    
+
+            }
+            
         }
     }
 }
