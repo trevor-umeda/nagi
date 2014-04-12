@@ -123,7 +123,7 @@ class AnswerController {
                 render answers[randomInt].body    
             }
             else{
-                def answer = new Answer(question:question)
+                def answer = new Answer(question:question,body:"I'll have to think about that")
                 answer.save(flush:true)
                 render "I'll have to think about that"    
 
