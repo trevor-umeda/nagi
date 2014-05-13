@@ -1,7 +1,5 @@
 package nagi
 
-
-
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
@@ -103,6 +101,7 @@ class AnswerController {
         }
     }
 
+    @Transactional
     def answerQuestion(){
         String question
         if(params.question){
@@ -119,16 +118,16 @@ class AnswerController {
         else {
             def answers = Answer.findAllByQuestion(question)
             if(answers){
-                def randomInt = random.nextInt(answers.size())                
-                render answers[randomInt].body    
+                def randomInt = random.nextInt(answers.size())
+                render answers[randomInt].body
             }
             else{
                 def answer = new Answer(question:question,body:"I'll have to think about that")
                 answer.save(flush:true)
-                render "I'll have to think about that"    
+                render "I'll have to think about that"
 
             }
-            
+
         }
     }
 }
